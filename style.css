@@ -1,12 +1,13 @@
 body{
+    margin-top: 5%;
     font-family: 'nunito', sans-serif;
     background-image: -webkit-gradient(linear, left top, right top, from(#e0c3fc), to(#8ec5fc));
 }
 
 .container {
+    width: 90%;
     margin-top: 20%;
     padding: 1% 0;
-    width: 100%;
     max-width: 400px;
     margin: 0 auto;
     text-align: center;
@@ -14,10 +15,27 @@ body{
 }
 
 h1 {
-    font-size: 18px;
+    font-size: 100%;
     border-bottom: 1px solid gainsboro;
     padding-bottom: 30px;
 }
+
+input {
+    width: 99%;
+    padding: 45px 0;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0,5;
+    border-style: none;
+}
+
+span {
+    cursor: pointer;
+}
+
 
 ul{
     margin: 0 auto;
@@ -50,23 +68,11 @@ li {
     padding: 9% 48%;
 }
 
-button{
-    
-}
-
-input {
-    width: 99%;
-    padding: 30px 0;
-    text-align: center;
-    font-size: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    opacity: 0,5;
+#excluirtodas, #selecionar{
     border-style: none;
-}
-
-span {
-    cursor: pointer;
+    margin-top: 3%;
+    background-color: rgb(146, 3, 146);
+    color: #ffffff;
+    padding: 5%;
 }
 

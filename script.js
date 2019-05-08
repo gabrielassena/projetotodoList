@@ -19,6 +19,7 @@ botao.addEventListener("click", function(){
   listaTarefas.appendChild(tarefa);
 
   tarefaNova.addEventListener("click", function(){
+
     if(tarefaNova.style.textDecoration != "line-through") {
       tarefaNova.style.textDecoration = "line-through";
       tarefaNova.style.color = "red";
@@ -39,7 +40,8 @@ botao.addEventListener("click", function(){
   let selecionar = document.getElementById("selecionar");
   selecionar.addEventListener("click", function(){
   tarefa.style.textDecoration = "line-through";
-  tarefa.style.color = "green"
+  tarefa.style.color = "green";
   })
+
   input.value = "";
 })
